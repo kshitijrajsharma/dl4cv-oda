@@ -8,5 +8,6 @@ dependencies = [
     "geomltoolkits>=0.4.2",
     "geopandas>=1.1.2",
     "ipykernel>=7.1.0",
+    "pyyaml>=6.0.3",
     "shapely>=2.1.2",
 ]
