@@ -4,3 +4,13 @@ data/labels
 data/yolo
 notebooks/runs
 *.pt
+__pycache__
+*.pyc
+*.pyo
+*.egg-info
+dist/
+build/
+.pytest_cache
+.ruff_cache
+# runs/
+*.log
