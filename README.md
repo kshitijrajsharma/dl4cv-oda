@@ -1,16 +1,16 @@
-# Object Detection on Aerial Imagery
+# Object Detection on Aerial Imagery for Coconut Trees Detection
 
-Coconut tree detection from drone imagery using YOLOv8 with OpenStreetMap labels and OpenAerialMap imagery.
+Coconut tree detection from drone imagery using YOLOv8, Yolov12, and RT_DERT models with OpenStreetMap labels and OpenAerialMap imagery.
 
 ## Overview
 
-- OpenStreetMap point data : bounding boxes with buffer zones
+- OpenStreetMap point data: bounding boxes with buffer zones
 - Tile large aerial imagery (256×256 at 9cm/pixel): [Source](https://map.openaerialmap.org/#/-175.34221936224426,-21.095929709180027,15/square/20002233030/5a28640ebac48e5b1c58a81d?_k=4yyxj6) 
 - Convert geographic coordinates to YOLO format
 - Train multiple models of YOLOv8 (nano, small, medium) on coconut trees from Kolovai, Tonga
 - Train Yolov12 and also RT-DERT.
 
-**Source**: World Bank - Automated Feature Detection of Aerial Imagery from South Pacific
+**Source**: World Bank - Automated Feature Detection of Aerial Imagery from the South Pacific
 
 ## Data
 
